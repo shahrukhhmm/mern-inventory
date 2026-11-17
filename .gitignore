@@ -1,0 +1,81 @@
+/public/uploads
+# react build
+/public/index.html
+/public/assets
+
+boxtech.zip
+
+/temp
+express-project.tar
+
+# Node modules
+/node_modules/
+
+# Dependency directories
+jspm_packages/
+
+# Build output
+/dist/
+/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*.local
+*.env
+
+# Coverage directory used by tools like Istanbul
+/coverage/
+
+# IDE/editor folders
+.idea/
+/.vscode/
+
+# npm package-lock file (optional: only ignore if you don't want to commit it)
+package-lock.json
+
+# Yarn lock file (optional: only ignore if you don't want to commit it)
+yarn.lock
+
+# SASS/SCSS cache (if applicable)
+.sass-cache/
+
+# Next.js (if used)
+.next/
+
+# JetBrains IDE files
+*.iml
+
+# TypeScript compilation
+*.tsbuildinfo
+
+# Debugger for Chrome
+/.vscode/
+
+# Tye (if used in .NET projects)
+.tye/
+
+# Expo (if used)
+.expo/
+
+# AWS Lambda build output (if applicable)
+/.serverless/
+
+# TypeORM migrations (optional: if not committing migrations)
+/migrations/
+
+# npm global package cache (optional: if you don't want to ignore globally installed npm packages)
+.npm/
+
+
+*.zip
+.todo

@@ -1,0 +1,68 @@
+/* Full-screen container */
+.login-card {
+  height: 100vh; /* Set the height of the card to fill the viewport */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 0; /* Remove default margin */
+  width: 100%; /* Set width to full screen */
+}
+
+/* Make the image fill the left side */
+.left-image {
+  height: 100vh; /* Ensure image covers full height */
+  width: 50%; /* Set width to 50% of the container */
+  max-width: 100%; /* Ensure it doesn’t overflow */
+}
+
+.left-image img {
+  object-fit: cover; /* Cover the entire left side */
+  height: 100%;
+  width: 100%; /* Ensure image covers full width */
+}
+
+/* Additional styling for the form container */
+.MDBCardBody {
+  padding: 2rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%; /* Full width */
+}
+
+/* Card column */
+.MDBCol {
+  display: flex;
+  justify-content: center; /* Center the content inside the column */
+  align-items: center; /* Center the content vertically */
+  padding: 0;
+}
+
+/* Form field adjustments */
+.MDBInput {
+  margin-bottom: 1.5rem; /* Adds space between form fields */
+  width: 100%; /* Ensure full-width form fields */
+}
+
+/* Button styling */
+.MDBBtn {
+  width: 100%; /* Button stretches across the form */
+  padding: 1rem;
+  font-size: 1.1rem; /* Slightly larger button */
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 768px) {
+  .left-image {
+    display: none; /* Hide image on small screens */
+  }
+  .login-card {
+    flex-direction: column; /* Stack the image and form vertically on small screens */
+  }
+  .MDBCard {
+    width: 90%; /* Make card smaller on mobile */
+    margin-top: 20px;
+  }
+}
